@@ -1,0 +1,59 @@
+body {
+    background-color: #2c3e50;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-wrapper {
+    text-align: center;
+    width: 700px;
+}
+
+h1 { font-weight: 300; margin-bottom: 25px; letter-spacing: 1px; }
+
+hr { border: 1px solid #444; margin: 0; }
+
+/* පොදු කොටු සැකසුම */
+.box {
+    width: 80px;
+    height: 40px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all 0.4s ease;
+}
+
+/* 1. Top Row (Left aligned) */
+.top-row {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start; /* වමට */
+    align-items: center;
+    padding-left: 20px;
+}
+
+/* 2. Middle Row (Center aligned) */
+.middle-row {
+    height: 100px;
+    display: flex;
+    justify-content: center; /* මැදට */
+    align-items: center;
+}
+
+#middle-queue {
+    display: flex;
+    gap: 15px; /* මැද කොටු 4 අතර පරතරය */
+}
+
+/* 3. Bottom Row (Right aligned) */
+.bottom-row {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end; /* දකුණට */
+    align-items: center;
+    padding-right: 20px;
+}
